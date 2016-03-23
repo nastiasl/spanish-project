@@ -48,7 +48,6 @@ a:focus{
 
 a:hover {
   text-decoration: underline;
-  color: blue;
   
 }
 
@@ -58,6 +57,7 @@ a:hover {
 
 .lit-header {
 	text-align: center;
+	
 }
 
 nav {
