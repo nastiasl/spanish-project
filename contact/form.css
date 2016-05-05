@@ -1,0 +1,33 @@
+.contactIntro {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+}
+
+html {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  background: whitesmoke;
+}
+
+label {
+  width: 100%;
+}
+
+.submitPassage {
+	display: none;
+}
+
+.rateSite {
+	display: none;
+}
+
+form {
+	border: 2px solid gray;
+	padding: 15px;
+	width: 700px;
+}
+.submissionField {
+	border-radius: 5px;
+}
