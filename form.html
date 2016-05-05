@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="proj-test.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="form.js"></script>
+  </head>
+  
+  <body> 
+  <div class="wrapper">
+	
+	<nav>
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about-us.html">About</a></li>
+		</ul>
+	</nav>
+	
+	<div class="info">
+    <h1 class="contactIntro">We Want to Hear From You!</h1>
+    <p class="lit">We're always happy to hear from users! If you have questions about the site, 
+	need help, or want to chat directly with us, feel free to email the team at 
+	<a href="mailto:#">questions@mas-espanol.com</a>! If you want to give feedback or submit a 
+	Spanish-language passage for us to use on the site, fill out the form below:</p>
+    </div>
+	
+    <form>
+      <p>
+        <label for="visitorName">What's your name?</label><br>
+        <input name="visitorName" type="text" class="submissionField" size="55" />
+      </p>
+      <p>
+        <label for="email">Email address</label><br>
+        <input name="email" type="text" class="submissionField" size="45" />
+      </p>
+      <p>
+      <p>  
+        <label for="aboutYou">Who are you?</label><br>
+        <textarea name="aboutYou" class="submissionField" rows="12" cols="50">Tell us about yourself! Are you a Spanish-language teacher, student, or  native speaker?  How did you find our humble website?</textarea>
+      </p>
+      <p>
+        <label for="selection">What would you like to do?</label><br>
+        <select name="selection" id="mySelect" onchange="selectionDisplay()">
+          <option value="" disabled selected>Please Select</option>
+          <option value="feedback" id="giveFeedback">Give Feedback</option>
+          <option value="submission" id="submitPassage">Submit a Passage</option>
+          <option value="feedbackPassage">Both</option>
+        </select>
+      </p>
+    <div class="rateSite">
+      <h3>How Was Your Experience?</h3>
+      <p>Let us know what you think about the site! Please choose a rating from 1-5:</p>
+      <p>
+        <input name="rating" type="radio" id="5-button" value="5" />
+        <label for="5-button">5 (AMAZING!)</label>
+        <input name="rating" type="radio" id="4-button" value="4" />
+        <label for="4-button">4 (Pretty Good)</label>
+        <input name="rating" type="radio" id="3-button" value="3" />
+        <label for="3-button">3 (OK)</label>
+        <input name="rating" type="radio" id="2-button" value="2" />
+        <label for="2-button">2 (Needs Improvement)</label>
+        <input name="rating" type="radio" id="1-button" value="1" />
+        <label for="1-button">1 (Pretty Bad)</label>
+      </p>
+    </div>
+    <div class="submitPassage">
+      <h3>Submit a Passage</h3>
+      <p>Thanks for your interest in submitting a literary passage for consideration on our site!  We're always looking for new content for our visitors to read. Please submit the name of the book your Spanish-language passage is from, as well as a link to where the passage can be found.  If the book is not available online, please email it to us instead at <a href="mailto:#">questions@mas-espanol.com</a>.</p>
+      <p>
+      <label for="bookTitle">Book Title</label><br>
+      <input name="bookTitle" type="text" class="submissionField" size="45"></p>
+      <p><label for="bookLink">Where can we find it?</label><br>
+      <input name="bookLink" type="text" class="submissionField" size="35"></p>
+    </div>
+    <br>
+    <br>
+    <button>Submit</button>
+    </form>
+  </div>
+  </body>
+</html>

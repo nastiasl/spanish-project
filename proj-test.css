@@ -1,0 +1,89 @@
+
+body {
+	margin: 0;
+	background: url(images/footer_lodyas.png) rgb(64, 64, 64);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Source Sans Pro', serif;
+	font-size: 16px;
+	font-size: 1em;
+	color: black;
+}
+
+.wrapper {
+	background-color: rgba(250, 200, 238, .75);
+	margin: auto;
+	margin-top: 10%;
+	width: 70%;
+	height: 100%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+span {
+    font-size: 24px;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#launchButton,
+#launchButton:hover,
+#launchButton:focus {
+  color: rgb(64, 64, 64);
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  font-size: 18px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+a,
+a:focus{
+	text-decoration: none;
+	color: rgb(64, 64, 64);
+}
+
+a:hover {
+  text-decoration: underline;
+  
+}
+
+.lit {
+	text-align: left;
+}
+
+.lit-header {
+	text-align: center;
+}
+
+nav {
+	top: 0;
+	position: absolute;
+	/*position: fixed;*/
+	display: inline;
+	background-color: rgba(250, 200, 238, .75);
+	right: 0;
+	width: 100%;
+}
+
+li {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+	display: inline;
+	
+	font-size: 18px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+	margin-top: 20px;
+	border: 2px solid rgb(64, 64, 64);
+	border-radius: 5px;
+	padding: 5px;
+}
